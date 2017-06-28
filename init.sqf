@@ -1,0 +1,2 @@
+
+execVM "cutscene\intro.sqf";

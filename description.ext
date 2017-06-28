@@ -1,0 +1,10 @@
+class CfgMusic
+{
+	tracks[]={};
+
+	class Moby
+	{
+		name = "Moby";
+		sound[] = {"\song\flower.ogg", db+10, 1.0};
+	};
+};
