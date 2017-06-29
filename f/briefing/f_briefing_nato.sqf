@@ -11,7 +11,9 @@
 
 _cre = player createDiaryRecord ["diary", ["Credits","
 <br/>
-*** Insert mission credits here. ***
+Cette mission d'entrainement a été réalisée par RedBelette.<br/>
+Soutenu par la team TGV : http://www.teamtgv.com<br/>
+Un merci tout particulier à notre formateur Sajkheirn.
 <br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
@@ -23,7 +25,7 @@ Made with F3 (http://www.ferstaberinde.com/f3/en/)
 
 _adm = player createDiaryRecord ["diary", ["Administration","
 <br/>
-*** Insert information on administration and logistics here. ***
+Pas de consigne particulière, c'est une mission d'entrainement en combat urbain.
 "]];
 
 // ====================================================================================
@@ -35,19 +37,12 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 <font size='18'>COMMANDER'S INTENT</font>
 <br/>
-*** Insert very short summary of plan here. ***
+Vous avez pour mission de détruire le stock d'explosifs.
 <br/><br/>
 <font size='18'>MOVEMENT PLAN</font>
 <br/>
-*** Insert movement instructions here. ***
-<br/><br/>
-<font size='18'>FIRE SUPPORT PLAN</font>
-<br/>
-*** Insert fire support instructions here. ***
-<br/><br/>
-<font size='18'>SPECIAL TASKS</font>
-<br/>
-*** Insert instructions for specific units here. ***
+Sécuriser chacun des avants postes avant d'atteindre votre objectif.<br>
+Dès que c'est fait, suivez le schéma d'exfiltration sur la carte.
 "]];
 
 // ====================================================================================
@@ -57,7 +52,7 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
-*** Insert the mission here. ***
+Vous devez impérativement détruire le stock d'arme que nous avons localisé.
 "]];
 
 // ====================================================================================
@@ -67,15 +62,15 @@ _mis = player createDiaryRecord ["diary", ["Mission","
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-*** Insert general information about the situation here.***
+L'économie du CSAT se base aussi sur la revente de matériel militaire.
 <br/><br/>
 <font size='18'>ENEMY FORCES</font>
 <br/>
-*** Insert information about enemy forces here.***
+De nombreuses troupes CSAT sont dans les parages.
 <br/><br/>
 <font size='18'>FRIENDLY FORCES</font>
 <br/>
-*** Insert information about friendly forces here.***
+Aucune, vous êtes en territoire ennemi.
 "]];
 
 // ====================================================================================
