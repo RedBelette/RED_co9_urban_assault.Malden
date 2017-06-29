@@ -1,3 +1,5 @@
+if (!hasInterface) exitWith {}; //Exit if not a player.
+
 sleep 10;
 
 playMusic "Moby";
