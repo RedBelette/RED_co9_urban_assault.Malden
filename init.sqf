@@ -1,3 +1,5 @@
+[] execVM "setupIA.sqf";
+
 // Wait until player loaded
 if (!isDedicated && (isNull player)) then
 {
@@ -62,5 +64,3 @@ execVM "cutscene\intro.sqf";
 // ====================================================================================
 ///Texte d'intro
 [] execVM "f\introtext.sqf";
-
-[] execVM "setupIA.sqf";
