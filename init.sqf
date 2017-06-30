@@ -62,3 +62,5 @@ execVM "cutscene\intro.sqf";
 // ====================================================================================
 ///Texte d'intro
 [] execVM "f\introtext.sqf";
+
+[] execVM "setupIA.sqf";
