@@ -17,7 +17,7 @@
 if(isDedicated) exitWith {};
 
 #ifndef Skpp_Roster_Include_AI
-#define Skpp_Roster_Include_AI 1
+#define Skpp_Roster_Include_AI 2
 #endif
 
 #ifndef Skpp_Roster_Role
@@ -67,7 +67,7 @@ switch(Skpp_Roster_Include_AI) do {
 	if(side _x == side player) then {
 		_newGrp = group _x;
 		_strGrp = "";
-		
+
 		if(Skpp_Roster_Rank) then {
 			switch(rankID _x) do {
 				case 0:{
@@ -103,7 +103,7 @@ switch(Skpp_Roster_Include_AI) do {
 
 		if(_newGrp != _oldGrp) then {
 			_strGrp = "<br/>" + (groupID(group _x)) + "<br/>";
-		
+
 			switch (side _x) do {
 				case EAST:{
 					_strColorGrp = "'#990000'";
