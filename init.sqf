@@ -57,10 +57,20 @@ f_script_briefing = [] execVM "briefing.sqf";
 [] execVM "f\briefing\f_loadoutNotes.sqf";
 
 // ====================================================================================
-///Cutscene
-execVM "cutscene\intro.sqf";
 
+f_var_viewDistance_default = 12000;
+f_var_viewDistance_tank = 2000;
+f_var_viewDistance_car = 2000;
+f_var_viewDistance_rotaryWing = 2500;
+f_var_viewDistance_fixedWing = 5000;
+f_var_viewDistance_crewOnly = true;
+[] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
 
 // ====================================================================================
-///Texte d'intro
-[] execVM "f\introtext.sqf";
+///Cutscene
+_handle = execVM "cutscene\intro.sqf";
+waitUntil {scriptDone _handle};
+
+// ====================================================================================
+f_var_viewDistance_default = 4500;
+[] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
