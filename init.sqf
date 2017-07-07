@@ -1,3 +1,5 @@
+titleCut [" ", "BLACK", 0];
+
 [] execVM "setupIA.sqf";
 
 // Wait until player loaded
@@ -65,6 +67,8 @@ f_var_viewDistance_rotaryWing = 2500;
 f_var_viewDistance_fixedWing = 5000;
 f_var_viewDistance_crewOnly = true;
 [] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
+
+titleCut [" ", "BLACK IN", 3];
 
 // ====================================================================================
 ///Cutscene
