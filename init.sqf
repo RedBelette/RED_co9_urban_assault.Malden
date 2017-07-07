@@ -72,8 +72,8 @@ titleCut [" ", "BLACK IN", 3];
 
 // ====================================================================================
 ///Cutscene
-_handle = execVM "cutscene\intro.sqf";
-waitUntil {scriptDone _handle};
+/*_handle = execVM "cutscene\intro.sqf";
+waitUntil {scriptDone _handle};*/
 
 // ====================================================================================
 f_var_viewDistance_default = 4500;
