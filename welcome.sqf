@@ -5,7 +5,7 @@ sleep 15;
 _clickableLink = parseText "<t colorLink='#ff0000'><a href='http://www.jeux-coop.com/TGV/site/'>TeamTGV</a></t>";
 _clickableLink2 = parseText "<t colorLink='#ff0000'><a href='ts3server://ts39.nitrado.net:12100/'>TeamSpeak</a></t>";
 _clickableLink3 = parseText "<t colorLink='#ff0000'><a href='https://www.twitch.tv/lunaticwraith'>Twitch Mr.H</a></t>";
-_clickableLink4 = parseText "<t colorLink='#ff0000'><a href='https://www.twitch.tv/wtf_aigle'>Twitch RedBelette</a></t>";
+_clickableLink4 = parseText "<t colorLink='#ff0000'><a href='https://www.twitch.tv/wtf_redbelette'>Twitch RedBelette</a></t>";
 _separator1 = parseText "<br />______________________________________<br />";
 _separator2 = parseText "<br /><br />"; 
 _txt = composeText 
